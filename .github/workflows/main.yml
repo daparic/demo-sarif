@@ -1,9 +1,9 @@
-name: demo
+name: demo-sarif
 on:
   push:
-    branches: [branch1]
+    branches: [master, main]
   pull_request:
-    branches: [branch1]
+    branches: [master, main]
   workflow_dispatch:
 jobs:
   italian:
