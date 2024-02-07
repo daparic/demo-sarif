@@ -40,6 +40,9 @@ void processStaff(Person *employees[], int sizeOfStaff) {
 int processFile(FILE *file, Person *employees[]) {
     /** Consider we had an error reading the file causing zero number of records
      * read. */
+    if (!file || !employees) {
+
+    }
     return 0;
 }
 
