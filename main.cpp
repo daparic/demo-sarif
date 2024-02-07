@@ -7,7 +7,7 @@
 
 #include "include/dbutil.h"
 
-void displayPersonalInfo(Person *person) {
+void displayPersonalInfo(const Person *person) {
     printf("Name: %s\n", person->name);
     printf("Salary: %d\n", person->salary);
     printf("Day's pay: %d\n", person->salary / person->daysWorkedInPassedMonth);
